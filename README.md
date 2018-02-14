@@ -16,6 +16,6 @@ swarm -f cellranger.swarm -g 40 -t 16 --module cellranger/2.0.0 --time 24:00:00
 cellranger count --id=testis1 --transcriptome=/data/yangh13/python/packages/CRoS/CRoS/species_FB2017_03/gtf/dmel_v3_plus_pacbio --fastqs=/data/Oliverlab/fastq/scRNA-seq/SV_1_10X_Te --sample=SV_1_10X_Te --localcores=16 --localmem=55
   
 ## Step 3 Downstream Analysis with Seurat Pipeline:
-Settings are here: https://github.com/jfear/larval_gonad/blob/master/docs/01.00-testis_pilot_scRNAseq_analysis.ipynb
+Settings are here: https://github.com/haiwangyang/PGMF/blame/master/PGMF/R/single_cell_analysis.testis1.seurat.Rmd
 Based on this example: http://satijalab.org/seurat/pbmc3k_tutorial.html
  
